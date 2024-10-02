@@ -1,0 +1,24 @@
+{
+  "name": "pizzaorderapp",
+  "version": "1.0.0",
+  "description": "Pizza Order App backend.",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "npm run build && node dist/app.js",
+    "dev": "npm run build && nodemon dist/app.js",
+    "test": "test"
+  },
+  "author": "Domodiak",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
