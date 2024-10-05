@@ -1,5 +1,5 @@
 {
-  "name": "pizzaorderapp",
+  "name": "fullstackpizza",
   "version": "1.0.0",
   "description": "Pizza Order App backend.",
   "main": "src/app.js",
