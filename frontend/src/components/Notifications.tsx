@@ -1,7 +1,9 @@
+import NotificationsIcon from '@mui/icons-material/Notifications';
+
 function Notifications() {
     return (
         <>
-            <div>Bell Icon</div>
+            <NotificationsIcon style={{ height: 32 }} />
         </>
     )
 }
