@@ -3,6 +3,7 @@ import Logo from "./Logo"
 import User from "./User"
 import Notifications from "./Notifications"
 import SearchInMenu from "./SearchInMenu"
+import Modal from "./Modal"
 
 const HeaderContainer = styled.header`
     width: 100vw;
