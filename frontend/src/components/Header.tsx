@@ -18,7 +18,9 @@ const HeaderContainer = styled.header`
 const RightSide = styled.div`
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 1rem;
+    height: 100%;
 `
 
 function Header() {
